@@ -1,6 +1,6 @@
 # EJ1 FileExplorer loaded directly in dialog using its contentUrl in Asp Mvc platform
 
-This example demonstrates how to load the FileExplorer directly in dialog using its contentUrl. This can be achieved by passing the FileExplorer view page url via model to dialog’s ‘contentUrl’ property.
+This example demonstrates how to load the FileExplorer directly in dialog using its contentUrl in both unobtrusive mode enabled and disabled cases. This can be achieved by passing the FileExplorer view page url via model to dialog’s ‘contentUrl’ property.
 
 ## How to run this application?
 
