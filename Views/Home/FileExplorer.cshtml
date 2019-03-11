@@ -1,0 +1,37 @@
+﻿@{
+    List<String> toolsList = new List<string>() {
+"layout",
+"navigation",
+"addressBar",
+"editing",
+"getProperties",
+"searchBar",
+"sortBy"
+
+};
+
+    List<String> navigation = new List<string>() {
+"Back",
+"Forward",
+"Upward"
+};
+    List<String> addressBar = new List<string>() {
+"Addressbar"
+};
+    List<String> editing = new List<string>() {
+"Refresh",
+"Upload",
+"Download"
+};
+
+    List<String> searchBar = new List<string>() {
+"Searchbar"
+};
+
+}
+
+
+
+@Html.EJ().FileExplorer("fileExplorer").Width("100%").Height("100%").FileTypes("*.png, *.jpg, *.jpeg").Path("~/content/images/FileExplorer/").Layout(LayoutType.Tile).AjaxAction(@Url.Content("/Home/FileActionDefault")).IsResponsive(true).ShowContextMenu(false).AllowMultiSelection(false).Tools(tools => tools.AddressBar(addressBar).Navigation(navigation).Editing(editing).SearchBar(searchBar)).ToolsList(toolsList)
+
+@Html.EJ().ScriptManager()
