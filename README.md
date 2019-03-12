@@ -19,4 +19,4 @@ Once cloned, open solution file in visual studio.Then build the project after re
 
 ## Final Output
 
-![FileExplorer rendered inside dialog component](FE_Dialog.png "FileExplorer inside dialog")
+![FileExplorer rendered inside dialog component](FE_dialog.png "FileExplorer inside dialog")
